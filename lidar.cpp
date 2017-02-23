@@ -105,7 +105,7 @@ void readLidar()
 			msg.quality	= nodes[pos].sync_quality >> RPLIDAR_RESP_MEASUREMENT_QUALITY_SHIFT;
 
 			// Send to server...
-			mqpif.sendOne(MQPIF_LIDAR, &msg, sizeof(msg));
+			//mqpif.sendOne(MQPIF_LIDAR, &msg, sizeof(msg));
 /*
 			std::stringstream ss;
 
