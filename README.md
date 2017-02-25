@@ -16,7 +16,7 @@ git clone https://github.com/rxdu/apriltag-pose.git
 3. Download RPLiDAR A2 SDK from [Slamtec](http://www.slamtec.com/en/lidar) website
 4. Unzip SDK into /dev
 ```
-unzip rplidar\__sdk_v1.5.7.zip
+unzip rplidar_sdk_v1.5.7.zip
 ```
 5. Build SDK in /dev
 ```
